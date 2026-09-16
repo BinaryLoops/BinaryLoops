@@ -1,60 +1,80 @@
 <div align="center">
 
-<img src="./hero.gif" width="100%" alt="BinaryLoops — Building Systems That Think">
-
-`● SYSTEM ONLINE` &nbsp; **SOFTWARE · AI · FULL-STACK · SYSTEMS**
+<img src="./assets/hero.svg" width="100%" alt="BinaryLoops — Building Systems That Think">
 
 </div>
 
-<img src="./divider.svg" width="100%" alt="">
+<img src="./assets/divider.svg" width="100%" alt="">
 
 ## 01 / SYSTEMS
 
-> **Building systems that think.**
+<img src="./assets/systems.svg" width="100%" alt="SmartChennai — intelligent urban infrastructure">
+
+<br>
 
 I build software across intelligent systems, full-stack applications, data, and real-world infrastructure — with a focus on turning ideas into working systems.
 
-### CURRENTLY BUILDING
+**Currently building:** [SmartChennai](https://github.com/BinaryLoops/SmartChennai) — an AI-powered urban command system covering traffic, emergency response, water/flood monitoring and citizen services.
 
-**[SmartChennai](https://github.com/BinaryLoops/SmartChennai)**  
-Intelligent urban infrastructure concept built around real-time telemetry, maps, event processing, multilingual operations, and simulated sensor infrastructure.
-
-`Next.js` `TypeScript` `PostgreSQL` `Prisma` `Redis` `BullMQ` `Socket.IO` `Mapbox`
-
-<img src="./divider.svg" width="100%" alt="">
+<img src="./assets/divider.svg" width="100%" alt="">
 
 ## 02 / SELECTED SYSTEMS
 
-<a href="https://github.com/BinaryLoops/SmartChennai"><img src="./projects.svg" width="100%" alt="Selected BinaryLoops systems"></a>
+<table>
+<tr>
+<td colspan="2">
+<a href="https://github.com/BinaryLoops/SmartChennai"><img src="./assets/project-01-smartchennai.svg" width="100%" alt="SmartChennai repository"></a>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<a href="https://github.com/BinaryLoops/PocketMate"><img src="./assets/project-02-pocketmate.svg" width="100%" alt="PocketMate repository"></a>
+</td>
+<td width="50%">
+<a href="https://github.com/BinaryLoops/GroceryAppDSA"><img src="./assets/project-03-grocery.svg" width="100%" alt="GroceryAppDSA repository"></a>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="right" width="78%">
+<a href="https://github.com/BinaryLoops/projectSIH"><img src="./assets/project-04-sih.svg" width="78%" alt="projectSIH repository"></a>
+</td>
+</tr>
+</table>
 
-<img src="./divider.svg" width="100%" alt="">
+<img src="./assets/divider.svg" width="100%" alt="">
 
 ## 03 / TECHNOLOGY
 
-<img src="./stack.svg" width="100%" alt="BinaryLoops technology stack">
+<img src="./assets/stack.svg" width="100%" alt="BinaryLoops technology matrix">
 
-<img src="./divider.svg" width="100%" alt="">
+<img src="./assets/divider.svg" width="100%" alt="">
 
 ## 04 / ACTIVITY
+
+<img src="./assets/activity.svg" width="100%" alt="Computational activity">
 
 <div align="center">
 
 <a href="https://github.com/BinaryLoops?tab=repositories">EXPLORE REPOSITORIES ↗</a>
-&nbsp;&nbsp; · &nbsp;&nbsp;
-<a href="https://github.com/BinaryLoops">VIEW PROFILE ↗</a>
+&nbsp;&nbsp;·&nbsp;&nbsp;
+<a href="https://github.com/BinaryLoops">VIEW LIVE CONTRIBUTIONS ↗</a>
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%" alt="">
 
 ## 05 / BUILDER
 
-I like building things at the intersection of **software, data, intelligent systems, and real-world problems**.
+I build at the intersection of software, data, intelligent systems and real-world problems.
 
-**Make the system work — then make it memorable.**
+**Make the system work. Then make it memorable.**
+
+<img src="./assets/divider.svg" width="100%" alt="">
 
 <div align="center">
 
-### `BINARYLOOPS / SYSTEM ONLINE`
+<sub>`BINARYLOOPS / SYSTEM ONLINE`</sub>
+
+<a href="https://github.com/BinaryLoops?tab=repositories">VIEW SYSTEMS</a> &nbsp;·&nbsp; <a href="https://github.com/BinaryLoops">GITHUB</a>
 
 </div>

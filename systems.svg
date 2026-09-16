@@ -1,0 +1,59 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="sgrid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#182229" stroke-width="0.5" opacity="0.35"/>
+    </pattern>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="nodeglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="12" fill="#070B0F"/>
+  <rect width="1200" height="300" rx="12" fill="url(#sgrid)"/>
+
+  <g font-family="'SFMono-Regular',Consolas,monospace" font-size="11" fill="#5A6C74" letter-spacing="1.5">
+    <text x="28" y="34">01 / SYSTEMS &#8212; SMARTCHENNAI</text>
+    <text x="1172" y="34" text-anchor="end">INTELLIGENT URBAN INFRASTRUCTURE</text>
+  </g>
+  <line x1="28" y1="48" x2="1172" y2="48" stroke="#1A2830"/>
+
+  <!-- zone paths (abstract city network, no fabricated stats) -->
+  <g stroke="#233138" stroke-width="1" fill="none" opacity="0.9">
+    <path d="M120,230 L320,150 L560,190 L760,110 L980,160 L1120,90"/>
+    <path d="M120,230 L280,255 L480,240 L700,255 L900,225 L1080,240"/>
+    <path d="M320,150 L480,240"/>
+    <path d="M560,190 L700,255"/>
+    <path d="M760,110 L900,225"/>
+  </g>
+
+  <!-- animated flow overlays -->
+  <g stroke="url(#flow)" stroke-width="2" fill="none">
+    <path d="M120,230 L320,150 L560,190 L760,110 L980,160 L1120,90" stroke-dasharray="24 340">
+      <animate attributeName="stroke-dashoffset" from="0" to="-364" dur="5.5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M120,230 L280,255 L480,240 L700,255 L900,225 L1080,240" stroke-dasharray="18 300">
+      <animate attributeName="stroke-dashoffset" from="0" to="-318" dur="7.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- nodes -->
+  <g>
+    <g transform="translate(120,230)"><circle r="16" fill="url(#nodeglow)"/><circle r="4" fill="#5DD9E9"/><text x="10" y="-12" font-family="'SFMono-Regular',Consolas,monospace" font-size="9" fill="#5A6C74">ZONE.A</text></g>
+    <g transform="translate(320,150)"><circle r="16" fill="url(#nodeglow)"/><circle r="4" fill="#5DD9E9"/><text x="10" y="-12" font-family="'SFMono-Regular',Consolas,monospace" font-size="9" fill="#5A6C74">TRAFFIC</text></g>
+    <g transform="translate(560,190)"><circle r="16" fill="url(#nodeglow)"/><circle r="4" fill="#5DD9E9"/><text x="10" y="-12" font-family="'SFMono-Regular',Consolas,monospace" font-size="9" fill="#5A6C74">EMERGENCY</text></g>
+    <g transform="translate(760,110)"><circle r="20" fill="url(#nodeglow)"/><circle r="5" fill="#EAFBFF"><animate attributeName="r" values="5;6.5;5" dur="2.6s" repeatCount="indefinite"/></circle><text x="12" y="-14" font-family="'SFMono-Regular',Consolas,monospace" font-size="9.5" fill="#8FA0A7">CONTROL CORE</text></g>
+    <g transform="translate(980,160)"><circle r="16" fill="url(#nodeglow)"/><circle r="4" fill="#5DD9E9"/><text x="10" y="-12" font-family="'SFMono-Regular',Consolas,monospace" font-size="9" fill="#5A6C74">WATER/FLOOD</text></g>
+    <g transform="translate(1120,90)"><circle r="16" fill="url(#nodeglow)"/><circle r="4" fill="#5DD9E9"/><text x="-10" y="-12" text-anchor="end" font-family="'SFMono-Regular',Consolas,monospace" font-size="9" fill="#5A6C74">TELEMETRY</text></g>
+    <g transform="translate(280,255)"><circle r="12" fill="url(#nodeglow)"/><circle r="3" fill="#3F5057"/></g>
+    <g transform="translate(480,240)"><circle r="12" fill="url(#nodeglow)"/><circle r="3" fill="#3F5057"/></g>
+    <g transform="translate(700,255)"><circle r="12" fill="url(#nodeglow)"/><circle r="3" fill="#3F5057"/></g>
+    <g transform="translate(900,225)"><circle r="12" fill="url(#nodeglow)"/><circle r="3" fill="#3F5057"/></g>
+    <g transform="translate(1080,240)"><circle r="12" fill="url(#nodeglow)"/><circle r="3" fill="#3F5057"/></g>
+  </g>
+</svg>
