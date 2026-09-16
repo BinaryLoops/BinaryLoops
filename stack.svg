@@ -1,0 +1,12 @@
+<svg width="1200" height="155" viewBox="0 0 1200 155" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="155" rx="12" fill="#070B0F"/>
+<g font-family="monospace">
+<text x="28" y="30" fill="#6D8790" font-size="11">TECHNOLOGY / CORE STACK</text>
+<text x="28" y="66" fill="#F0F5F6" font-size="14">LANG</text>
+<text x="150" y="66" fill="#A9BAC0" font-size="14">Python · C · C++ · TypeScript · JavaScript · SQL</text>
+<text x="28" y="94" fill="#F0F5F6" font-size="14">WEB</text>
+<text x="150" y="94" fill="#A9BAC0" font-size="14">React · Next.js · Node.js · Tailwind</text>
+<text x="28" y="122" fill="#F0F5F6" font-size="14">DATA</text>
+<text x="150" y="122" fill="#A9BAC0" font-size="14">PostgreSQL · MySQL · Prisma · Redis · AWS</text>
+</g>
+</svg>
