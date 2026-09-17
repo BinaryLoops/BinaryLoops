@@ -41,11 +41,15 @@ I build software across intelligent systems, full-stack applications, data, and 
 </tr>
 </table>
 
+<sub><a href="https://github.com/BinaryLoops/SmartChennai">SmartChennai</a> &nbsp;·&nbsp; <a href="https://github.com/BinaryLoops/PocketMate">PocketMate</a> &nbsp;·&nbsp; <a href="https://github.com/BinaryLoops/GroceryAppDSA">GroceryAppDSA</a> &nbsp;·&nbsp; <a href="https://github.com/BinaryLoops/projectSIH">projectSIH</a></sub>
+
 <img src="./assets/divider.svg" width="100%" alt="">
 
 ## 03 / TECHNOLOGY
 
 <img src="./assets/stack.svg" width="100%" alt="BinaryLoops technology matrix">
+
+<sub>Languages: Python, C, C++, TypeScript, JavaScript, SQL &nbsp;&#183;&nbsp; Web: React, Next.js, Node.js, Tailwind &nbsp;&#183;&nbsp; App: Flutter, Dart &nbsp;&#183;&nbsp; Data: PostgreSQL, MySQL, Prisma, Redis &nbsp;&#183;&nbsp; Systems: Socket.IO, BullMQ, Mapbox, Git &nbsp;&#183;&nbsp; Cloud: AWS, Docker</sub>
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
