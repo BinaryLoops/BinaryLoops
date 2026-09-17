@@ -1,29 +1,35 @@
-<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient id="p1glow" cx="88%" cy="12%" r="60%">
       <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.14"/>
       <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
     </radialGradient>
+    <style>
+      @media (max-width: 360px) {
+        .desc { display: none; }
+      }
+    </style>
   </defs>
   <rect width="900" height="300" rx="14" fill="#0B1117" stroke="#232F36"/>
   <rect width="900" height="300" rx="14" fill="url(#p1glow)"/>
 
-  <!-- signature loop motif, top right -->
   <g transform="translate(820,56)" opacity="0.55">
     <circle r="34" fill="none" stroke="#22D3EE" stroke-opacity="0.35"/>
     <circle r="20" fill="none" stroke="#22D3EE" stroke-opacity="0.5" stroke-dasharray="1 5"/>
     <circle r="3" fill="#5DD9E9"/>
   </g>
 
-  <text x="40" y="58" font-family="'SFMono-Regular',Consolas,monospace" font-size="13" fill="#22D3EE" letter-spacing="1">01</text>
-  <text x="40" y="112" font-family="Helvetica,Arial,sans-serif" font-size="42" font-weight="800" fill="#F2F6F7" letter-spacing="-1">SMARTCHENNAI</text>
-  <text x="41" y="140" font-family="'SFMono-Regular',Consolas,monospace" font-size="12" fill="#5DD9E9" letter-spacing="1.5">INTELLIGENT URBAN INFRASTRUCTURE</text>
+  <text x="40" y="56" font-family="'SFMono-Regular',Consolas,monospace" font-size="16" font-weight="700" fill="#22D3EE" letter-spacing="1">01</text>
+  <text x="40" y="114" font-family="Helvetica,Arial,sans-serif" font-size="50" font-weight="800" fill="#F9FBFB" letter-spacing="-1">SMARTCHENNAI</text>
+  <text x="41" y="144" font-family="'SFMono-Regular',Consolas,monospace" font-size="14" font-weight="700" fill="#5DD9E9" letter-spacing="1.5">INTELLIGENT URBAN INFRASTRUCTURE</text>
 
-  <text x="41" y="180" font-family="Helvetica,Arial,sans-serif" font-size="15" fill="#A7B4BA">Real-time urban operations system covering traffic,</text>
-  <text x="41" y="202" font-family="Helvetica,Arial,sans-serif" font-size="15" fill="#A7B4BA">emergency response, water/flood and citizen services.</text>
+  <g class="desc">
+    <text x="41" y="180" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#C4D0D5">Real-time urban operations system covering traffic,</text>
+    <text x="41" y="202" font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#C4D0D5">emergency response, water/flood and citizen services.</text>
+  </g>
 
   <line x1="41" y1="228" x2="859" y2="228" stroke="#1E2A31"/>
 
-  <text x="41" y="256" font-family="'SFMono-Regular',Consolas,monospace" font-size="12" fill="#7C8B92" letter-spacing="0.5">NEXT.JS &#183; TYPESCRIPT &#183; POSTGRESQL &#183; PRISMA &#183; REDIS &#183; MAPBOX</text>
-  <text x="41" y="282" font-family="'SFMono-Regular',Consolas,monospace" font-size="12" fill="#D7E2E6" letter-spacing="1">VIEW REPOSITORY &#8594;</text>
+  <text x="41" y="258" font-family="'SFMono-Regular',Consolas,monospace" font-size="14" fill="#A7B4BA" letter-spacing="0.5">NEXT.JS &#183; TYPESCRIPT &#183; POSTGRESQL &#183; PRISMA &#183; REDIS &#183; MAPBOX</text>
+  <text x="41" y="284" font-family="'SFMono-Regular',Consolas,monospace" font-size="14" font-weight="700" fill="#F2F6F7" letter-spacing="1">VIEW REPOSITORY &#8594;</text>
 </svg>

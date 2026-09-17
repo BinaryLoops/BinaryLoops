@@ -1,17 +1,26 @@
-<svg width="430" height="240" viewBox="0 0 430 240" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 430 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @media (max-width: 200px) {
+        .desc { display: none; }
+      }
+    </style>
+  </defs>
   <rect width="430" height="240" rx="14" fill="#0B1117" stroke="#232F36"/>
   <g transform="translate(388,40)" opacity="0.45">
     <circle r="20" fill="none" stroke="#22D3EE" stroke-opacity="0.4"/>
     <circle r="2.6" fill="#5DD9E9"/>
   </g>
-  <text x="30" y="46" font-family="'SFMono-Regular',Consolas,monospace" font-size="12" fill="#22D3EE" letter-spacing="1">02</text>
-  <text x="30" y="86" font-family="Helvetica,Arial,sans-serif" font-size="27" font-weight="800" fill="#F2F6F7" letter-spacing="-0.5">POCKETMATE</text>
-  <text x="31" y="108" font-family="'SFMono-Regular',Consolas,monospace" font-size="10.5" fill="#5DD9E9" letter-spacing="1">APPLICATION</text>
+  <text x="30" y="48" font-family="'SFMono-Regular',Consolas,monospace" font-size="14" font-weight="700" fill="#22D3EE" letter-spacing="1">02</text>
+  <text x="30" y="92" font-family="Helvetica,Arial,sans-serif" font-size="32" font-weight="800" fill="#F9FBFB" letter-spacing="-0.5">POCKETMATE</text>
+  <text x="31" y="114" font-family="'SFMono-Regular',Consolas,monospace" font-size="12.5" font-weight="700" fill="#5DD9E9" letter-spacing="1">APPLICATION</text>
 
-  <text x="31" y="140" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#A7B4BA">Product build focused on</text>
-  <text x="31" y="160" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#A7B4BA">everyday personal utility.</text>
+  <g class="desc">
+    <text x="31" y="144" font-family="Helvetica,Arial,sans-serif" font-size="14.5" fill="#C4D0D5">Product build focused on</text>
+    <text x="31" y="164" font-family="Helvetica,Arial,sans-serif" font-size="14.5" fill="#C4D0D5">everyday personal utility.</text>
+  </g>
 
-  <line x1="31" y1="182" x2="399" y2="182" stroke="#1E2A31"/>
-  <text x="31" y="204" font-family="'SFMono-Regular',Consolas,monospace" font-size="11" fill="#7C8B92" letter-spacing="0.5">TYPESCRIPT</text>
-  <text x="31" y="226" font-family="'SFMono-Regular',Consolas,monospace" font-size="11" fill="#D7E2E6" letter-spacing="1">VIEW REPOSITORY &#8594;</text>
+  <line x1="31" y1="186" x2="399" y2="186" stroke="#1E2A31"/>
+  <text x="31" y="210" font-family="'SFMono-Regular',Consolas,monospace" font-size="13" fill="#A7B4BA">TYPESCRIPT</text>
+  <text x="31" y="232" font-family="'SFMono-Regular',Consolas,monospace" font-size="13" font-weight="700" fill="#F2F6F7" letter-spacing="1">VIEW REPOSITORY &#8594;</text>
 </svg>

@@ -1,13 +1,20 @@
-<svg width="900" height="160" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+<svg width="100%" viewBox="0 0 900 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @media (max-width: 420px) {
+        .sub { display: none; }
+      }
+    </style>
+  </defs>
   <rect width="900" height="160" rx="14" fill="#0B1117" stroke="#232F36"/>
   <g transform="translate(70,80)" opacity="0.4">
     <circle r="26" fill="none" stroke="#22D3EE" stroke-opacity="0.35"/>
     <circle r="3" fill="#5DD9E9"/>
   </g>
-  <text x="130" y="52" font-family="'SFMono-Regular',Consolas,monospace" font-size="12" fill="#22D3EE" letter-spacing="1">04</text>
-  <text x="130" y="90" font-family="Helvetica,Arial,sans-serif" font-size="30" font-weight="800" fill="#F2F6F7" letter-spacing="-0.5">PROJECTSIH</text>
-  <text x="330" y="90" font-family="'SFMono-Regular',Consolas,monospace" font-size="11" fill="#5DD9E9" letter-spacing="1">HACKATHON / PROTOTYPE</text>
-  <text x="700" y="90" font-family="'SFMono-Regular',Consolas,monospace" font-size="11" fill="#D7E2E6" letter-spacing="1">VIEW REPOSITORY &#8594;</text>
-  <line x1="130" y1="108" x2="855" y2="108" stroke="#1E2A31"/>
-  <text x="130" y="132" font-family="Helvetica,Arial,sans-serif" font-size="13" fill="#A7B4BA">Systems prototype built for Smart India Hackathon.</text>
+  <text x="130" y="58" font-family="'SFMono-Regular',Consolas,monospace" font-size="14" font-weight="700" fill="#22D3EE" letter-spacing="1">04</text>
+  <text x="130" y="94" font-family="Helvetica,Arial,sans-serif" font-size="34" font-weight="800" fill="#F9FBFB" letter-spacing="-0.5">PROJECTSIH</text>
+  <text x="335" y="94" class="sub" font-family="'SFMono-Regular',Consolas,monospace" font-size="12.5" font-weight="700" fill="#5DD9E9" letter-spacing="1">HACKATHON / PROTOTYPE</text>
+  <text x="700" y="94" font-family="'SFMono-Regular',Consolas,monospace" font-size="13" font-weight="700" fill="#F2F6F7" letter-spacing="1">VIEW REPOSITORY &#8594;</text>
+  <line x1="130" y1="112" x2="855" y2="112" stroke="#1E2A31"/>
+  <text x="130" y="136" class="sub" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#C4D0D5">Systems prototype built for Smart India Hackathon.</text>
 </svg>
