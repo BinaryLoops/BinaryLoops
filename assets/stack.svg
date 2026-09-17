@@ -8,7 +8,7 @@
   </defs>
   <rect width="1200" height="230" rx="14" fill="#0B1117" stroke="#232F36"/>
 
-  <text x="30" y="36" font-family="'SFMono-Regular',Consolas,monospace" font-size="15" font-weight="700" fill="#D7E2E6" letter-spacing="1">03 / TECHNOLOGY MATRIX</text>
+  <text x="30" y="36" font-family="'SFMono-Regular',Consolas,monospace" font-size="15" font-weight="700" fill="#D7E2E6" letter-spacing="1">04 / TECHNOLOGY MATRIX</text>
   <line x1="30" y1="50" x2="1170" y2="50" stroke="#1E2A31"/>
 
   <g>

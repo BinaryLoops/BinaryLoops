@@ -1,0 +1,11 @@
+[
+  { "name": "SmartChennai", "url": "https://github.com/BinaryLoops/SmartChennai", "language": "TypeScript", "tier": "featured" },
+  { "name": "PocketMate", "url": "https://github.com/BinaryLoops/PocketMate", "language": "TypeScript", "tier": "featured" },
+  { "name": "GroceryAppDSA", "url": "https://github.com/BinaryLoops/GroceryAppDSA", "language": "Dart", "tier": "featured" },
+  { "name": "projectSIH", "url": "https://github.com/BinaryLoops/projectSIH", "language": null, "tier": "featured" },
+  { "name": "Document-AI", "url": "https://github.com/BinaryLoops/Document-AI", "language": "Python", "tier": "standard" },
+  { "name": "Smart-Hostel", "url": "https://github.com/BinaryLoops/Smart-Hostel", "language": "JavaScript", "tier": "standard" },
+  { "name": "Fraud_Detector", "url": "https://github.com/BinaryLoops/Fraud_Detector", "language": "TypeScript", "tier": "standard" },
+  { "name": "network-monitoring-dashboard", "url": "https://github.com/BinaryLoops/network-monitoring-dashboard", "language": "TypeScript", "tier": "standard" },
+  { "name": "Library-Management-System", "url": "https://github.com/BinaryLoops/Library-Management-System", "language": "Programming", "tier": "standard" }
+]

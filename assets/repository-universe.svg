@@ -1,0 +1,102 @@
+<svg width="100%" viewBox="0 0 1300 580" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="ruglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nodeglowU" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nodeglowS" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5B7480" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#5B7480" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="ugrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#182229" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <rect width="1300" height="580" rx="14" fill="#070B0F"/>
+  <rect width="1300" height="580" rx="14" fill="url(#ugrid)"/>
+
+  <text x="30" y="40" font-family="'SFMono-Regular',Consolas,monospace" font-size="15" font-weight="700" fill="#D7E2E6" letter-spacing="1">03 / REPOSITORY UNIVERSE</text>
+  <text x="1270" y="40" text-anchor="end" font-family="'SFMono-Regular',Consolas,monospace" font-size="13" font-weight="700" fill="#5DD9E9" letter-spacing="1">09 PUBLIC REPOSITORIES</text>
+  <line x1="30" y1="54" x2="1270" y2="54" stroke="#1A2830"/>
+
+  <!-- connections -->
+  <g stroke="#233138" stroke-width="1" fill="none">
+    <path d="M650,320 L650,120"/>
+    <path d="M650,320 L750,201"/>
+    <path d="M650,320 L847,285"/>
+    <path d="M650,320 L784,398"/>
+    <path d="M650,320 L718,508"/>
+    <path d="M650,320 L597,466"/>
+    <path d="M650,320 L477,420"/>
+    <path d="M650,320 L497,293"/>
+    <path d="M650,320 L550,201"/>
+  </g>
+  <g stroke="url(#nodeglowU)" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M650,320 L650,120"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.5s" repeatCount="indefinite"/></path>
+    <path d="M650,320 L847,285"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="5.2s" repeatCount="indefinite"/></path>
+    <path d="M650,320 L477,420"><animate attributeName="opacity" values="0.2;0.6;0.2" dur="6s" repeatCount="indefinite"/></path>
+  </g>
+
+  <!-- hub -->
+  <g transform="translate(650,320)">
+    <circle r="46" fill="url(#ruglow)"/>
+    <polygon points="0,-20 17,-10 17,10 0,20 -17,10 -17,-10" fill="#0B1319" stroke="#22D3EE" stroke-width="1.4"/>
+    <text y="5" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="12" font-weight="700" fill="#5DD9E9">BL</text>
+  </g>
+
+  <g font-family="Helvetica,Arial,sans-serif">
+    <!-- featured tier: larger, brighter -->
+    <g transform="translate(650,120)">
+      <circle r="20" fill="url(#nodeglowU)"/><circle r="7" fill="#5DD9E9"/>
+      <text x="0" y="-30" text-anchor="middle" font-size="18" font-weight="700" fill="#F2F6F7">SmartChennai</text>
+      <text x="0" y="-12" text-anchor="middle" font-family="'SFMono-Regular',Consolas,monospace" font-size="13" fill="#8FA0A7">TypeScript</text>
+    </g>
+    <g transform="translate(847,285)">
+      <circle r="20" fill="url(#nodeglowU)"/><circle r="7" fill="#5DD9E9"/>
+      <text x="16" y="-4" font-size="18" font-weight="700" fill="#F2F6F7">PocketMate</text>
+      <text x="16" y="16" font-family="'SFMono-Regular',Consolas,monospace" font-size="13" fill="#8FA0A7">TypeScript</text>
+    </g>
+    <g transform="translate(718,508)">
+      <circle r="20" fill="url(#nodeglowU)"/><circle r="7" fill="#5DD9E9"/>
+      <text x="16" y="4" font-size="18" font-weight="700" fill="#F2F6F7">GroceryAppDSA</text>
+      <text x="16" y="24" font-family="'SFMono-Regular',Consolas,monospace" font-size="13" fill="#8FA0A7">Dart</text>
+    </g>
+    <g transform="translate(477,420)">
+      <circle r="20" fill="url(#nodeglowU)"/><circle r="7" fill="#5DD9E9"/>
+      <text x="-16" y="4" text-anchor="end" font-size="18" font-weight="700" fill="#F2F6F7">projectSIH</text>
+    </g>
+
+    <!-- standard tier: smaller, cooler -->
+    <g transform="translate(750,201)">
+      <circle r="13" fill="url(#nodeglowS)"/><circle r="4.5" fill="#8FA0A7"/>
+      <text x="14" y="-8" font-size="15" font-weight="700" fill="#C4D0D5">Document-AI</text>
+      <text x="14" y="10" font-family="'SFMono-Regular',Consolas,monospace" font-size="12.5" fill="#7C8B92">Python</text>
+    </g>
+    <g transform="translate(784,398)">
+      <circle r="13" fill="url(#nodeglowS)"/><circle r="4.5" fill="#8FA0A7"/>
+      <text x="14" y="6" font-size="15" font-weight="700" fill="#C4D0D5">Smart-Hostel</text>
+      <text x="14" y="24" font-family="'SFMono-Regular',Consolas,monospace" font-size="12.5" fill="#7C8B92">JavaScript</text>
+    </g>
+    <g transform="translate(597,466)">
+      <circle r="13" fill="url(#nodeglowS)"/><circle r="4.5" fill="#8FA0A7"/>
+      <text x="-14" y="6" text-anchor="end" font-size="15" font-weight="700" fill="#C4D0D5">Fraud_Detector</text>
+      <text x="-14" y="24" text-anchor="end" font-family="'SFMono-Regular',Consolas,monospace" font-size="12.5" fill="#7C8B92">TypeScript</text>
+    </g>
+    <g transform="translate(497,293)">
+      <circle r="13" fill="url(#nodeglowS)"/><circle r="4.5" fill="#8FA0A7"/>
+      <text x="-14" y="-8" text-anchor="end" font-size="15" font-weight="700" fill="#C4D0D5">network-monitoring-dashboard</text>
+      <text x="-14" y="10" text-anchor="end" font-family="'SFMono-Regular',Consolas,monospace" font-size="12.5" fill="#7C8B92">TypeScript</text>
+    </g>
+    <g transform="translate(550,201)">
+      <circle r="13" fill="url(#nodeglowS)"/><circle r="4.5" fill="#8FA0A7"/>
+      <text x="-14" y="-6" text-anchor="end" font-size="15" font-weight="700" fill="#C4D0D5">Library-Management-System</text>
+    </g>
+  </g>
+
+  <text x="30" y="558" font-family="'SFMono-Regular',Consolas,monospace" font-size="12.5" fill="#7C8B92" letter-spacing="0.5">FULL INDEX AND LINKS BELOW &#8212; PRIVATE REPOSITORIES ARE NOT SHOWN.</text>
+</svg>
