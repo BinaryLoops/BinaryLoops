@@ -45,7 +45,33 @@ I build software across intelligent systems, full-stack applications, data, and 
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
-## 03 / TECHNOLOGY
+## 03 / REPOSITORY UNIVERSE
+
+Selected Systems above is a curated highlight reel, not the full picture. This is the wider map — every public repository confirmed as of this writing, plotted as part of one engineering system rather than a flat list of cards.
+
+<img src="./assets/repository-universe.svg" width="100%" alt="BinaryLoops repository universe — a constellation view of public repositories">
+
+**Repository index**
+
+| # | Repository | Language |
+|---|---|---|
+| 01 | [SmartChennai](https://github.com/BinaryLoops/SmartChennai) | TypeScript |
+| 02 | [PocketMate](https://github.com/BinaryLoops/PocketMate) | TypeScript |
+| 03 | [GroceryAppDSA](https://github.com/BinaryLoops/GroceryAppDSA) | Dart |
+| 04 | [projectSIH](https://github.com/BinaryLoops/projectSIH) | — |
+| 05 | [Document-AI](https://github.com/BinaryLoops/Document-AI) | Python |
+| 06 | [Smart-Hostel](https://github.com/BinaryLoops/Smart-Hostel) | JavaScript |
+| 07 | [Fraud_Detector](https://github.com/BinaryLoops/Fraud_Detector) | TypeScript |
+| 08 | [network-monitoring-dashboard](https://github.com/BinaryLoops/network-monitoring-dashboard) | TypeScript |
+| 09 | [Library-Management-System](https://github.com/BinaryLoops/Library-Management-System) | — |
+
+→ **[VIEW ALL PUBLIC REPOSITORIES](https://github.com/BinaryLoops?tab=repositories)**
+
+<sub>Nine public repositories, as listed on GitHub. Private repositories are intentionally not shown. The link above is always the live source of truth.</sub>
+
+<img src="./assets/divider.svg" width="100%" alt="">
+
+## 04 / TECHNOLOGY
 
 <img src="./assets/stack.svg" width="100%" alt="BinaryLoops technology matrix">
 
@@ -53,7 +79,7 @@ I build software across intelligent systems, full-stack applications, data, and 
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
-## 04 / ACTIVITY
+## 05 / ACTIVITY
 
 <img src="./assets/activity.svg" width="100%" alt="Computational activity">
 
@@ -67,7 +93,7 @@ I build software across intelligent systems, full-stack applications, data, and 
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
-## 05 / BUILDER
+## 06 / BUILDER
 
 I build at the intersection of software, data, intelligent systems and real-world problems.
 
