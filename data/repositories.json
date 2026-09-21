@@ -1,0 +1,119 @@
+{
+  "source": "https://github.com/BinaryLoops",
+  "note": "Primary language and description verified against each repository page and its README. No statistics are inferred or invented: repositories with no committed content are marked kind=placeholder, and the profile repository is marked kind=profile so it is never presented as a project.",
+  "owner": {
+    "login": "BinaryLoops",
+    "name": "Ayush",
+    "followers": 1,
+    "public_repos": 10,
+    "url": "https://github.com/BinaryLoops"
+  },
+  "regions": {
+    "AI": "Machine intelligence and extraction",
+    "WEB": "Operator-facing interfaces",
+    "DATA": "Schemas, records and persistence",
+    "SYSTEMS": "Runtime, structures and monitoring"
+  },
+  "repositories": [
+    {
+      "name": "SmartChennai",
+      "kind": "project",
+      "lang": "TypeScript",
+      "region": "WEB",
+      "featured": true,
+      "title": "URBAN OPERATING SYSTEM",
+      "desc": "Smart Chennai ICCC — integrated urban command dashboard",
+      "role": "Operator console aggregating city subsystems into one view"
+    },
+    {
+      "name": "Document-AI",
+      "kind": "project",
+      "lang": "Python",
+      "region": "AI",
+      "featured": true,
+      "title": "DOCUMENT INTELLIGENCE",
+      "desc": "DocuMind AI — document intelligence, SIH PS23",
+      "role": "Reads unstructured documents and emits structured entities"
+    },
+    {
+      "name": "PocketMate",
+      "kind": "project",
+      "lang": "TypeScript",
+      "region": "DATA",
+      "featured": true,
+      "title": "FINANCIAL DATA SYSTEM",
+      "desc": "Personal finance tracker built on a relational DBMS core",
+      "role": "Normalised ledger with derived balances over a relational schema"
+    },
+    {
+      "name": "GroceryAppDSA",
+      "kind": "project",
+      "lang": "Dart",
+      "region": "SYSTEMS",
+      "featured": true,
+      "title": "ALGORITHMIC ENGINE",
+      "desc": "Flutter grocery app exercising core data structures",
+      "role": "Search, sort and traversal structures driving a real interface"
+    },
+    {
+      "name": "Fraud_Detector",
+      "kind": "project",
+      "lang": "TypeScript",
+      "region": "AI",
+      "featured": false,
+      "title": "ANOMALY SCREENING",
+      "desc": "FraudGuard — transaction anomaly screening",
+      "role": "Flags irregular transactions for review"
+    },
+    {
+      "name": "network-monitoring-dashboard",
+      "kind": "project",
+      "lang": "TypeScript",
+      "region": "SYSTEMS",
+      "featured": false,
+      "title": "NETWORK TELEMETRY",
+      "desc": "Live network health and traffic monitoring",
+      "role": "Surfaces link health and traffic in real time"
+    },
+    {
+      "name": "Library-Management-System",
+      "kind": "project",
+      "lang": "Python",
+      "region": "DATA",
+      "featured": false,
+      "title": "RECORDS SYSTEM",
+      "desc": "Catalogue, lending and member records",
+      "role": "Catalogue and circulation records"
+    },
+    {
+      "name": "Smart-Hostel",
+      "kind": "project",
+      "lang": "JavaScript",
+      "region": "WEB",
+      "featured": false,
+      "title": "OPERATIONS CONSOLE",
+      "desc": "Hostel operations and room allocation",
+      "role": "Room allocation and day-to-day operations"
+    },
+    {
+      "name": "projectSIH",
+      "kind": "placeholder",
+      "lang": null,
+      "region": "AI",
+      "featured": false,
+      "title": "RESERVED",
+      "desc": "Placeholder repository — no code committed yet",
+      "role": "Reserved namespace"
+    },
+    {
+      "name": "BinaryLoops",
+      "kind": "profile",
+      "lang": null,
+      "region": "SYSTEMS",
+      "featured": false,
+      "title": "PROFILE",
+      "desc": "This profile repository — holds the generated README and its assets",
+      "role": "Not a project: the surface you are reading now"
+    }
+  ]
+}
